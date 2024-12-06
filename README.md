@@ -24,26 +24,7 @@ To create the `source.zip` file for upload to Coursys do:
 
     python3 zipsrc.py
 
-For more options:
 
-    python3 zipsrc.py -h
-
-## Check your accuracy
-
-To check your accuracy on the dev set:
-
-    python3 check.py
-
-For more options:
-
-    python3 check.py -h
-
-In particular use the log file to check your output evaluation:
-
-    python3 check.py -l log
-
-The accuracy on `data/input/test.tsv` will not be shown.  We will
-evaluate your output on the test input after the submission deadline.
 
 ## Data files
 
